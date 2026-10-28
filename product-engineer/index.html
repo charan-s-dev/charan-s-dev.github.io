@@ -1,0 +1,589 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Charan S | AI-Native Product Engineer · Flutter &amp; Full-Stack</title>
+  <meta name="description" content="Charan S is an AI-native product engineer based in Coimbatore who turns business ideas into Flutter apps, websites, and backend services, owning products from market research to a working build.">
+  <meta name="author" content="Charan S">
+  <meta name="theme-color" content="#5B21F5">
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Charan S | AI-Native Product Engineer">
+  <meta property="og:description" content="From business idea to working build: market research, PRDs, UI/UX, Flutter apps, and backends, delivered in 2–2.5 months instead of six.">
+  <meta property="og:url" content="https://charan-s-dev.github.io/product-engineer/">
+  <meta property="og:image" content="https://charan-s-dev.github.io/product-engineer/assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://charan-s-dev.github.io/product-engineer/">
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@500;600&display=swap">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Charan S",
+    "jobTitle": "AI-Native Product Engineer",
+    "email": "mailto:charanvpm2002@gmail.com",
+    "address": { "@type": "PostalAddress", "addressLocality": "Coimbatore", "addressCountry": "IN" },
+    "alumniOf": "Anna University",
+    "sameAs": ["https://www.linkedin.com/in/charan-s-032935222/"],
+    "knowsAbout": ["Flutter", "Dart", "BLoC", "FastAPI", "PostgreSQL", "React", "TypeScript", "Claude Code", "Product research", "PRD writing"]
+  }
+  </script>
+</head>
+<body>
+  <svg class="sprite" aria-hidden="true" focusable="false">
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05C20.6 8.65 21 11.2 21 14.5V21h-4v-5.8c0-1.4-.03-3.2-1.95-3.2-1.95 0-2.25 1.5-2.25 3.1V21H9z"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></symbol>
+    <symbol id="i-up" viewBox="0 0 24 24"><path d="M12 19V5"/><path d="m5 12 7-7 7 7"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></symbol>
+    <symbol id="i-pitch" viewBox="0 0 24 24"><path d="M3 11v3a1 1 0 0 0 1 1h2l5 4V6L6 10H4a1 1 0 0 0-1 1z"/><path d="M15 9a4 4 0 0 1 0 6"/><path d="M18 6a8 8 0 0 1 0 12"/></symbol>
+    <symbol id="i-doc" viewBox="0 0 24 24"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6"/><path d="M8 13h8M8 17h5"/></symbol>
+    <symbol id="i-pen" viewBox="0 0 24 24"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/></symbol>
+    <symbol id="i-code" viewBox="0 0 24 24"><path d="m16 18 6-6-6-6"/><path d="m8 6-6 6 6 6"/></symbol>
+    <symbol id="i-phone-app" viewBox="0 0 24 24"><rect x="6" y="2" width="12" height="20" rx="2.5"/><path d="M11 18h2"/></symbol>
+    <symbol id="i-server" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="7" rx="2"/><rect x="3" y="13" width="18" height="7" rx="2"/><path d="M7 7.5h.01M7 16.5h.01"/></symbol>
+    <symbol id="i-plug" viewBox="0 0 24 24"><path d="M9 2v6M15 2v6"/><path d="M6 8h12v3a6 6 0 0 1-12 0z"/><path d="M12 17v5"/></symbol>
+    <symbol id="i-bot" viewBox="0 0 24 24"><rect x="4" y="7" width="16" height="12" rx="3"/><path d="M12 3v4"/><circle cx="9" cy="13" r="1.2"/><circle cx="15" cy="13" r="1.2"/><path d="M2 12v3M22 12v3"/></symbol>
+    <symbol id="i-bulb" viewBox="0 0 24 24"><path d="M9 18h6M10 22h4"/><path d="M12 2a7 7 0 0 0-4 12.7c.6.5 1 1.2 1 2V17h6v-.3c0-.8.4-1.5 1-2A7 7 0 0 0 12 2z"/></symbol>
+    <symbol id="i-cap" viewBox="0 0 24 24"><path d="m2 9 10-5 10 5-10 5z"/><path d="M6 11v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5"/><path d="M22 9v6"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 5 5 9-10"/></symbol>
+    <symbol id="i-spark" viewBox="0 0 24 24"><path d="M12 3l1.9 5.6 5.6 1.9-5.6 1.9L12 18l-1.9-5.6-5.6-1.9 5.6-1.9z"/></symbol>
+  </svg>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="progress" data-progress aria-hidden="true"></div>
+
+  <header class="site-header" data-header>
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="Charan S, back to top">
+        <span class="brand-mark" aria-hidden="true">CS</span>
+        <span class="brand-name">Charan S</span>
+      </a>
+      <nav class="nav" data-nav aria-label="Primary">
+        <a href="#work">Products</a>
+        <a href="#process">How I work</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+        <a class="btn btn-ink nav-cta" href="Charan_S_Resume.pdf" download>
+          <svg class="icon"><use href="#i-download"/></svg> Resume
+        </a>
+      </nav>
+      <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-label="Open menu">
+        <svg class="icon icon-open"><use href="#i-menu"/></svg>
+        <svg class="icon icon-close"><use href="#i-close"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="top">
+      <div class="hero-bg" aria-hidden="true">
+        <span class="blob blob-1"></span><span class="blob blob-2"></span><span class="blob blob-3"></span>
+      </div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="hero-chips reveal">
+            <span class="chip chip-live"><span class="pulse" aria-hidden="true"></span> Open to product engineering roles</span>
+            <span class="chip"><svg class="icon"><use href="#i-pin"/></svg> Coimbatore, India · Open to relocation &amp; remote</span>
+          </div>
+          <h1 class="hero-title reveal">
+            <span class="hero-name">Charan S</span>
+            <span class="hero-role">AI-Native Product Engineer</span>
+          </h1>
+          <p class="hero-stack reveal">Flutter (iOS &amp; Android) <span aria-hidden="true">·</span> Full-Stack <span aria-hidden="true">·</span> 2+ years</p>
+          <p class="hero-lede reveal">
+            I turn business ideas into mobile apps, websites, and backend services, <strong>owning products from market research to a working build</strong>. My AI-native workflow on Claude Design, Claude Code CLI, agents, and personal Claude Code skills delivers in <span class="hl">2–2.5 months</span> what is typically a six-month build.
+          </p>
+          <div class="hero-ctas reveal">
+            <a class="btn btn-primary" href="Charan_S_Resume.pdf" download>
+              <svg class="icon"><use href="#i-download"/></svg> Download resume
+            </a>
+            <a class="btn btn-light" href="mailto:charanvpm2002@gmail.com?subject=Opportunity%20for%20Charan%20S">
+              <svg class="icon"><use href="#i-mail"/></svg> Email me
+            </a>
+            <a class="btn btn-icon" href="https://www.linkedin.com/in/charan-s-032935222/" target="_blank" rel="noopener" aria-label="LinkedIn profile (opens in a new tab)">
+              <svg class="icon"><use href="#i-linkedin"/></svg>
+            </a>
+          </div>
+          <p class="hero-contact reveal">
+            <a href="mailto:charanvpm2002@gmail.com"><svg class="icon"><use href="#i-mail"/></svg> charanvpm2002@gmail.com</a>
+          </p>
+        </div>
+
+        <div class="hero-art reveal" aria-label="Highlights">
+          <div class="sticker sticker-lime"><b>20+</b> personal Claude Code skills I created for my own workflow</div>
+          <figure class="speed-card" data-spotlight>
+            <figcaption>
+              <span class="mono-label">Delivery time</span>
+              <strong>A six-month build in under half the time</strong>
+            </figcaption>
+            <div class="speed-row">
+              <span class="speed-label">Typical build</span>
+              <span class="speed-bar speed-bar-slow"><span>6 months</span></span>
+            </div>
+            <div class="speed-row">
+              <span class="speed-label">My workflow</span>
+              <span class="speed-bar speed-bar-fast"><span>2–2.5 mo</span></span>
+            </div>
+            <p class="speed-foot">Claude Design · Claude Code CLI · agents · personal skills</p>
+          </figure>
+          <div class="sticker-row">
+            <div class="sticker sticker-orange">Sole mobile developer, <b>no designers</b></div>
+            <div class="sticker sticker-pink">Won Claude Code adoption across a <b>5-person team</b></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MARQUEE ============ -->
+    <div class="marquee" aria-label="Core skills">
+      <div class="marquee-track">
+        <ul class="marquee-list">
+          <li>Idea validation</li><li>Competitor research</li><li>BRD &amp; PRD</li><li>UI/UX design</li><li>Flutter</li><li>BLoC</li><li>Clean Architecture</li><li>FastAPI</li><li>PostgreSQL</li><li>React</li><li>TypeScript</li><li>WhatsApp Cloud API</li><li>Razorpay</li><li>Cashfree</li><li>PayU</li><li>Claude Code</li><li>Claude Design</li><li>Anthropic API</li>
+        </ul>
+        <ul class="marquee-list" aria-hidden="true">
+          <li>Idea validation</li><li>Competitor research</li><li>BRD &amp; PRD</li><li>UI/UX design</li><li>Flutter</li><li>BLoC</li><li>Clean Architecture</li><li>FastAPI</li><li>PostgreSQL</li><li>React</li><li>TypeScript</li><li>WhatsApp Cloud API</li><li>Razorpay</li><li>Cashfree</li><li>PayU</li><li>Claude Code</li><li>Claude Design</li><li>Anthropic API</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- ============ STATS ============ -->
+    <section class="stats" aria-label="At a glance">
+      <div class="container stats-grid">
+        <div class="stat reveal"><span class="stat-num"><span data-count="2">2</span>+</span><span class="stat-label">years turning ideas into apps, websites, and backends</span></div>
+        <div class="stat reveal"><span class="stat-num" data-count="3">3</span><span class="stat-label">products researched, specified, and built at Rosemallow</span></div>
+        <div class="stat reveal"><span class="stat-num"><span data-count="20">20</span>+</span><span class="stat-label">personal Claude Code skills I created for my own workflow</span></div>
+        <div class="stat reveal"><span class="stat-num" data-count="1">1</span><span class="stat-label">month to build MyInvois SME Booster with Claude Code</span></div>
+      </div>
+    </section>
+
+    <!-- ============ PRODUCTS ============ -->
+    <section class="section" id="work">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="kicker"><svg class="icon"><use href="#i-spark"/></svg> Selected products</p>
+          <h2>Three problems, <span class="marker">three working builds.</span></h2>
+          <p class="section-sub">Each one started as a business problem. Here is the research behind it, what the product does, and how it was built.</p>
+        </header>
+
+        <!-- My Game Booking -->
+        <article class="case case-mgb reveal" data-spotlight>
+          <div class="case-visual">
+            <svg viewBox="0 0 480 360" role="img" aria-label="Illustration: a turf on a map with a slot list showing booked, held, and open times">
+                            <g opacity=".22" stroke="#15121F" stroke-width="1.5">
+                <path d="M0 80 C120 60 200 120 480 90"/><path d="M0 250 C140 230 260 300 480 260"/>
+              </g>
+              <g transform="translate(32 92)">
+                <rect width="250" height="170" rx="18" fill="#17B169" stroke="#15121F" stroke-width="3"/>
+                <g fill="none" stroke="#fff" stroke-opacity=".85" stroke-width="3">
+                  <rect x="12" y="12" width="226" height="146" rx="8"/>
+                  <line x1="125" y1="12" x2="125" y2="158"/>
+                  <circle cx="125" cy="85" r="24"/>
+                  <rect x="12" y="52" width="32" height="66"/>
+                  <rect x="206" y="52" width="32" height="66"/>
+                </g>
+              </g>
+              <g transform="translate(132 30)">
+                <path d="M26 0C11.6 0 0 11.4 0 25.6 0 44 26 70 26 70s26-26 26-44.4C52 11.4 40.4 0 26 0z" fill="#FF4D8D" stroke="#15121F" stroke-width="3"/>
+                <circle cx="26" cy="25" r="9" fill="#fff" stroke="#15121F" stroke-width="3"/>
+              </g>
+              <g transform="translate(262 128)" font-family="DM Sans, Arial, sans-serif">
+                <rect x="6" y="6" width="190" height="206" rx="18" fill="#15121F"/>
+                <rect width="190" height="206" rx="18" fill="#fff" stroke="#15121F" stroke-width="3"/>
+                <text x="18" y="32" font-size="15" font-weight="700" fill="#15121F">Today's slots</text>
+                <g font-size="13" font-weight="600">
+                  <rect x="14" y="48" width="162" height="34" rx="10" fill="#EFEAF5"/>
+                  <text x="26" y="70" fill="#6B6580">6:00 PM</text><text x="164" y="70" fill="#6B6580" text-anchor="end">Booked</text>
+                  <rect x="14" y="90" width="162" height="34" rx="10" fill="#FFD9A0" stroke="#15121F" stroke-width="2"/>
+                  <text x="26" y="112" fill="#15121F">7:00 PM</text><text x="164" y="112" fill="#15121F" text-anchor="end">Held 4:59</text>
+                  <rect x="14" y="132" width="162" height="34" rx="10" fill="#C5F02F"/>
+                  <text x="26" y="154" fill="#15121F">8:00 PM</text><text x="164" y="154" fill="#15121F" text-anchor="end">Open</text>
+                  <rect x="14" y="174" width="162" height="22" rx="8" fill="#5B21F5"/>
+                  <text x="95" y="190" fill="#fff" text-anchor="middle" font-size="12">Pay &amp; book</text>
+                </g>
+              </g>
+            </svg>
+          </div>
+          <div class="case-body">
+            <div class="case-top">
+              <span class="status">In development · store release underway</span>
+            </div>
+            <h3>My Game Booking</h3>
+            <p class="case-tagline">Turf and sports-venue booking platform</p>
+            <p class="case-role">Rosemallow Technologies · product owner and mobile developer (customer and venue-operator apps)</p>
+            <ul class="case-numbers" aria-label="Research in numbers">
+              <li><b>16</b> pain points</li>
+              <li><b>10</b> customer segments</li>
+              <li><b>6</b> competitors benchmarked</li>
+              <li><b>11</b> revenue streams modelled</li>
+            </ul>
+            <ul class="tags" aria-label="Tech stack">
+              <li>Flutter</li><li>BLoC</li><li>REST APIs</li><li>Firebase</li><li>Google Maps</li><li>Cashfree</li><li>Razorpay</li><li>PayU</li><li>Claude Design</li><li>Claude Code</li>
+            </ul>
+          </div>
+          <div class="case-grid">
+            <div class="case-cell"><h4><svg class="icon"><use href="#i-search"/></svg> Problem</h4><p>Players hunt for turfs on Google Maps and phone owners to check slots, while owners take bookings by phone, WhatsApp, and walk-in with no single record, so double-bookings happen.</p></div>
+            <div class="case-cell"><h4><svg class="icon"><use href="#i-doc"/></svg> Research</h4><p>Mapped 16 pain points across 10 customer segments, benchmarked 6 competitors including Zomato's District, and modelled 11 revenue streams and a 5-phase roadmap.</p></div>
+            <div class="case-cell"><h4><svg class="icon"><use href="#i-bulb"/></svg> Product</h4><p>Players find nearby turfs on a map, see live slot availability, pay online, and check in by QR code; owners run bookings, walk-ins, and payouts from a live calendar.</p></div>
+            <div class="case-cell"><h4><svg class="icon"><use href="#i-bot"/></svg> Built with Claude end to end</h4><p>Claude for research and the PRD, Claude Design for the UI/UX, and Claude Code with personal skills to build both apps and write the automated tests.</p></div>
+          </div>
+        </article>
+
+        <!-- MyInvois SME Booster -->
+        <article class="case case-inv case-flip reveal" data-spotlight>
+          <div class="case-visual">
+            <svg viewBox="0 0 480 360" role="img" aria-label="Illustration: a WhatsApp chat where a receipt photo and a voice note become a draft invoice">
+              <g font-family="DM Sans, Arial, sans-serif" font-size="13" font-weight="600">
+                <g transform="translate(30 36)">
+                  <rect x="5" y="5" width="176" height="54" rx="27" fill="#15121F"/>
+                  <rect width="176" height="54" rx="27" fill="#fff" stroke="#15121F" stroke-width="2.5"/>
+                  <circle cx="27" cy="27" r="17" fill="#C5F02F" stroke="#15121F" stroke-width="2"/>
+                  <rect x="18" y="21" width="18" height="13" rx="4" fill="none" stroke="#15121F" stroke-width="2"/>
+                  <circle cx="23.5" cy="27.5" r="1.6" fill="#15121F"/><circle cx="30.5" cy="27.5" r="1.6" fill="#15121F"/>
+                  <text x="54" y="24" fill="#15121F" font-size="13" font-weight="700">SME Booster</text>
+                  <text x="54" y="41" fill="#4A4560" font-size="11" font-weight="500">WhatsApp chat</text>
+                </g>
+                <g transform="translate(232 36)">
+                  <rect x="5" y="5" width="200" height="54" rx="16" fill="#15121F"/>
+                  <rect width="200" height="54" rx="16" fill="#D9FDD3" stroke="#15121F" stroke-width="2.5"/>
+                  <rect x="12" y="10" width="34" height="34" rx="8" fill="#fff" stroke="#15121F" stroke-width="2"/>
+                  <path d="M20 34l6-8 5 6 3-4 5 6z" fill="#17B169"/><circle cx="36" cy="19" r="3" fill="#FF9F1C"/>
+                  <text x="56" y="25" fill="#15121F">receipt.jpg</text>
+                  <text x="56" y="42" fill="#4A4560" font-weight="500" font-size="12">Photo of a bill</text>
+                </g>
+                <g transform="translate(232 106)">
+                  <rect x="5" y="5" width="200" height="46" rx="16" fill="#15121F"/>
+                  <rect width="200" height="46" rx="16" fill="#D9FDD3" stroke="#15121F" stroke-width="2.5"/>
+                  <circle cx="26" cy="23" r="12" fill="#5B21F5"/><path d="M23 17v12l9-6z" fill="#fff"/>
+                  <g stroke="#15121F" stroke-width="3" stroke-linecap="round">
+                    <path d="M50 23v0M58 17v12M66 13v20M74 19v8M82 15v16M90 21v4M98 17v12M106 13v20M114 19v8"/>
+                  </g>
+                  <text x="186" y="28" fill="#4A4560" text-anchor="end" font-size="12">0:08</text>
+                </g>
+                <g transform="translate(34 172)">
+                  <rect x="5" y="5" width="236" height="104" rx="16" fill="#15121F"/>
+                  <rect width="236" height="104" rx="16" fill="#fff" stroke="#15121F" stroke-width="2.5"/>
+                  <text x="16" y="28" fill="#5B21F5" font-size="12" font-family="JetBrains Mono, monospace">DRAFT E-INVOICE</text>
+                  <text x="16" y="52" fill="#15121F" font-size="15" font-weight="700">3 items · RM 245.00</text>
+                  <text x="16" y="72" fill="#4A4560" font-weight="500" font-size="12">Saved details reused</text>
+                  <rect x="16" y="80" width="64" height="16" rx="8" fill="#C5F02F"/><text x="48" y="92" fill="#15121F" font-size="10" text-anchor="middle">Confirm</text>
+                  <rect x="86" y="80" width="54" height="16" rx="8" fill="#EFEAF5"/><text x="113" y="92" fill="#15121F" font-size="10" text-anchor="middle">Edit</text>
+                </g>
+                <g transform="translate(300 292)">
+                  <rect x="4" y="4" width="148" height="40" rx="20" fill="#15121F"/>
+                  <rect width="148" height="40" rx="20" fill="#FF9F1C" stroke="#15121F" stroke-width="2.5"/>
+                  <text x="74" y="25" fill="#15121F" text-anchor="middle" font-size="13">English · Malay</text>
+                </g>
+              </g>
+            </svg>
+          </div>
+          <div class="case-body">
+            <div class="case-top">
+              <span class="status">In development · demoed to SMEs</span>
+            </div>
+            <h3>MyInvois SME Booster</h3>
+            <p class="case-tagline">WhatsApp e-invoicing for Malaysian SMEs</p>
+            <p class="case-role">Rosemallow Technologies · full-stack developer and product owner</p>
+            <ul class="case-numbers" aria-label="Project in numbers">
+              <li><b>~10 → 1–2</b> min per invoice in demos</li>
+              <li><b>55</b> fields per e-invoice on the portal</li>
+              <li><b>20</b> blueprint sections</li>
+              <li><b>8</b> research studies</li>
+            </ul>
+            <ul class="tags" aria-label="Tech stack">
+              <li>Python</li><li>FastAPI</li><li>PostgreSQL</li><li>WhatsApp Cloud API</li><li>LHDN MyInvois API</li><li>Anthropic API</li><li>Groq</li><li>Claude Code</li>
+            </ul>
+          </div>
+          <div class="case-grid">
+            <div class="case-cell"><h4><svg class="icon"><use href="#i-search"/></svg> Problem</h4><p>Filling and validating up to 55 fields per e-invoice on LHDN's MyInvois portal takes about 10 minutes at a desk; in recorded demos the bot cuts that to 1–2 minutes from a phone.</p></div>
+            <div class="case-cell"><h4><svg class="icon"><use href="#i-doc"/></svg> Research</h4><p>Wrote a 20-section product blueprint and 8 research studies, covering intermediary API access, one-scan onboarding, buyer auto-fill, and item classification, plus an audit against LHDN rules.</p></div>
+            <div class="case-cell"><h4><svg class="icon"><use href="#i-bulb"/></svg> Product</h4><p>Sellers create an invoice in WhatsApp by typing, photographing, or speaking in English or Malay, submit it for LHDN validation, and send it to the buyer; saved details make repeat invoices faster. Tested end to end against an LHDN simulator.</p></div>
+            <div class="case-cell"><h4><svg class="icon"><use href="#i-bot"/></svg> Built with Claude end to end</h4><p>Claude for the blueprint and research, Claude Code for the backend and its automated tests, and Claude inside the bot itself to read free-text invoices.</p></div>
+          </div>
+        </article>
+
+        <!-- CineAd -->
+        <article class="case case-cine reveal" data-spotlight>
+          <div class="case-visual">
+            <svg viewBox="0 0 480 360" role="img" aria-label="Illustration: a cinema screen playing an ad reel, controlled by a phone remote over the local Wi-Fi">
+              <defs>
+                                <linearGradient id="g-reel" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5B21F5"/><stop offset="1" stop-color="#2BC8FF"/></linearGradient>
+              </defs>
+                            <g transform="translate(30 34)">
+                <rect x="6" y="6" width="290" height="170" rx="14" fill="#15121F"/>
+                <rect width="290" height="170" rx="14" fill="#1E1A2E" stroke="#15121F" stroke-width="3"/>
+                <rect x="14" y="14" width="262" height="128" rx="8" fill="url(#g-reel)"/>
+                <text x="145" y="78" fill="#fff" font-family="Bricolage Grotesque, Arial, sans-serif" font-size="30" font-weight="800" text-anchor="middle">AD REEL</text>
+                <text x="145" y="104" fill="#fff" fill-opacity=".85" font-family="JetBrains Mono, monospace" font-size="12" text-anchor="middle">clip 2 of 5 · showtime</text>
+                <rect x="14" y="152" width="262" height="6" rx="3" fill="#3A3450"/>
+                <rect x="14" y="152" width="150" height="6" rx="3" fill="#C5F02F"/>
+              </g>
+              <g fill="#15121F" opacity=".85" transform="translate(30 226)">
+                <rect x="0" y="0" width="40" height="22" rx="8"/><rect x="48" y="0" width="40" height="22" rx="8"/><rect x="96" y="0" width="40" height="22" rx="8"/><rect x="144" y="0" width="40" height="22" rx="8"/><rect x="192" y="0" width="40" height="22" rx="8"/><rect x="240" y="0" width="40" height="22" rx="8"/>
+                <rect x="24" y="32" width="40" height="22" rx="8"/><rect x="72" y="32" width="40" height="22" rx="8"/><rect x="120" y="32" width="40" height="22" rx="8"/><rect x="168" y="32" width="40" height="22" rx="8"/><rect x="216" y="32" width="40" height="22" rx="8"/>
+              </g>
+              <path d="M330 150 C 370 120, 380 110, 372 92" fill="none" stroke="#15121F" stroke-width="3" stroke-dasharray="7 7"/>
+              <g transform="translate(336 118)">
+                <rect x="6" y="6" width="112" height="210" rx="20" fill="#15121F"/>
+                <rect width="112" height="210" rx="20" fill="#fff" stroke="#15121F" stroke-width="3"/>
+                <rect x="14" y="20" width="84" height="48" rx="8" fill="url(#g-reel)"/>
+                <text x="56" y="88" fill="#15121F" font-family="DM Sans, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle">Screen 1 · paired</text>
+                <g transform="translate(14 100)">
+                  <rect width="84" height="28" rx="10" fill="#C5F02F" stroke="#15121F" stroke-width="2"/>
+                  <rect x="34" y="8" width="5" height="12" rx="1" fill="#15121F"/><rect x="45" y="8" width="5" height="12" rx="1" fill="#15121F"/>
+                  <rect y="36" width="84" height="28" rx="10" fill="#FFD9A0" stroke="#15121F" stroke-width="2"/>
+                  <path d="M33 44l10 6-10 6zM44 44l10 6-10 6z" fill="#15121F"/>
+                  <rect y="72" width="84" height="28" rx="10" fill="#EFEAF5" stroke="#15121F" stroke-width="2"/>
+                  <path d="M49 80a8 8 0 1 0 2 6" fill="none" stroke="#15121F" stroke-width="2.5" stroke-linecap="round"/><path d="M47 76l4 4-5 2z" fill="#15121F"/>
+                </g>
+              </g>
+              <g transform="translate(300 60)" font-family="JetBrains Mono, monospace" font-size="11" font-weight="600">
+                <rect width="150" height="26" rx="13" fill="#fff" stroke="#15121F" stroke-width="2"/>
+                <text x="75" y="17" text-anchor="middle" fill="#15121F">WebSocket · mDNS</text>
+              </g>
+            </svg>
+          </div>
+          <div class="case-body">
+            <div class="case-top">
+              <span class="status">Demo-ready MVP</span>
+            </div>
+            <h3>CineAd</h3>
+            <p class="case-tagline">Cloud ad publishing for standalone theatres</p>
+            <p class="case-role">Rosemallow Technologies · product researcher and sole Flutter developer</p>
+            <ul class="case-numbers" aria-label="Project in numbers">
+              <li><b>14</b> pain points mapped</li>
+              <li><b>12</b> research and design docs</li>
+              <li><b>10</b> days to the demo app</li>
+            </ul>
+            <ul class="tags" aria-label="Tech stack">
+              <li>Flutter</li><li>Dart</li><li>BLoC</li><li>Clean Architecture</li><li>WebSockets</li><li>mDNS</li><li>Dio</li><li>Android</li><li>Claude Code</li>
+            </ul>
+          </div>
+          <div class="case-grid">
+            <div class="case-cell"><h4><svg class="icon"><use href="#i-search"/></svg> Problem</h4><p>Theatre ads still travel by pen drive, email, and WhatsApp and are loaded by hand at each screen, so a campaign across 100 theatres is hard to update, track, or prove it ran.</p></div>
+            <div class="case-cell"><h4><svg class="icon"><use href="#i-doc"/></svg> Research</h4><p>Mapped 14 pain points for agencies, theatres, and advertisers, then specified peak-day scheduling, proof-of-play, and reach reports in the feature spec, information architecture, and user flows.</p></div>
+            <div class="case-cell"><h4><svg class="icon"><use href="#i-bulb"/></svg> Product</h4><p>An Android kiosk plays each screen's ad reel full-screen at showtime, while an operator's phone on the same Wi-Fi finds it automatically to pause, skip, or restart ads with a synced preview.</p></div>
+            <div class="case-cell"><h4><svg class="icon"><use href="#i-bot"/></svg> Built with Claude end to end</h4><p>Drafted all 12 research and design documents with Claude, then built the demo app in 10 days with Claude Code and personal skills.</p></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ PROCESS ============ -->
+    <section class="section section-tint" id="process">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="kicker"><svg class="icon"><use href="#i-spark"/></svg> How I work</p>
+          <h2>From a one-line brief <span class="marker marker-pink">to a working build.</span></h2>
+          <p class="section-sub">I validate CEO-led and self-initiated ideas, pitch the business case, then own requirements, UI/UX, development, and testing.</p>
+        </header>
+        <ol class="steps">
+          <li class="step reveal" data-spotlight>
+            <span class="step-num">01</span>
+            <span class="step-icon"><svg class="icon"><use href="#i-search"/></svg></span>
+            <h3>Validate</h3>
+            <p>Competitor and viability analysis before any code.</p>
+            <p class="step-proof">My Game Booking: 16 pain points, 10 customer segments, 6 competitors benchmarked.</p>
+          </li>
+          <li class="step reveal" data-spotlight>
+            <span class="step-num">02</span>
+            <span class="step-icon"><svg class="icon"><use href="#i-pitch"/></svg></span>
+            <h3>Pitch</h3>
+            <p>Take the business case to the CEO.</p>
+            <p class="step-proof">Spotted the turf-booking gap, pitched it, and won full ownership.</p>
+          </li>
+          <li class="step reveal" data-spotlight>
+            <span class="step-num">03</span>
+            <span class="step-icon"><svg class="icon"><use href="#i-doc"/></svg></span>
+            <h3>Specify</h3>
+            <p>Requirements, PRDs, and API contracts.</p>
+            <p class="step-proof">The My Game Booking PRD; a 20-section blueprint for MyInvois SME Booster.</p>
+          </li>
+          <li class="step reveal" data-spotlight>
+            <span class="step-num">04</span>
+            <span class="step-icon"><svg class="icon"><use href="#i-pen"/></svg></span>
+            <h3>Design</h3>
+            <p>UI/UX for every app, with no designers.</p>
+            <p class="step-proof">Oasis with Lovable and Google Stitch prompts, every app since with Claude Design.</p>
+          </li>
+          <li class="step reveal" data-spotlight>
+            <span class="step-num">05</span>
+            <span class="step-icon"><svg class="icon"><use href="#i-code"/></svg></span>
+            <h3>Build &amp; test</h3>
+            <p>Claude Code CLI, agents, and personal skills.</p>
+            <p class="step-proof">MyInvois SME Booster in one month; the CineAd demo app in 10 days.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="section" id="experience">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="kicker"><svg class="icon"><use href="#i-spark"/></svg> Experience</p>
+          <h2>Where I've <span class="marker marker-orange">built.</span></h2>
+        </header>
+
+        <div class="timeline">
+          <article class="job reveal">
+            <div class="job-side">
+              <span class="job-dates">Jul 2025 – Present</span>
+              <span class="job-badge">Current</span>
+            </div>
+            <div class="job-card" data-spotlight>
+              <h3>Flutter Developer</h3>
+              <p class="job-org">Rosemallow Technologies Pvt Ltd</p>
+              <ul class="job-points">
+                <li>Spotted a gap in local turf booking via competitor research, pitched My Game Booking to the CEO, and <strong>won full ownership</strong>, writing the PRD and building its customer and venue-operator apps for under-a-minute booking.</li>
+                <li>Turned a one-line CEO brief on Malaysia's e-invoicing mandate into MyInvois SME Booster, proposing a WhatsApp-first design and <strong>building it with Claude Code in one month</strong>.</li>
+                <li>Pitched Claude Code when the CEO wanted faster delivery, proved its results within two weeks, and <strong>won its adoption across the 5-person team</strong>, now delivering six-month builds in 2–2.5 months.</li>
+                <li>Created <strong>20+ personal Claude Code skills</strong> that automate Flutter Clean Architecture scaffolding, API integration, Firebase environment setup, and test-case design, keeping AI-generated code consistent across products.</li>
+                <li>Designed and built every mobile app as the <strong>only mobile developer, with no designers</strong>: Oasis with Lovable and Google Stitch prompts, and every app since with Claude Design and Claude Code CLI.</li>
+                <li>Used Claude Code to build Haritha By Michael, a client's luxury event-venue booking and management platform, full-stack in FastAPI, PostgreSQL, and React/TypeScript, with role-based access control.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="job reveal">
+            <div class="job-side">
+              <span class="job-dates">Jun 2024 – Jun 2025</span>
+            </div>
+            <div class="job-card" data-spotlight>
+              <h3>Junior Flutter Developer</h3>
+              <p class="job-org">Scode Software Solutions</p>
+              <ul class="job-points">
+                <li>Main Flutter developer on CGT Aesthetics, a US medical spa's booking app on the Booker scheduling API, <strong>covering treatment and add-on selection, provider choice, live slot booking, and in-app consent forms with e-signature</strong>, and adding bookings to the phone's calendar.</li>
+                <li>Worked on CGT's growth and retention features: Allē and Aspire loyalty rewards, refer-a-friend rewards, gift cards, promotions, and guest access without sign-up.</li>
+                <li>Led the app build for Advertmingo, a UK client's advertising platform, delivering <strong>the complete app UI and API integrations while guiding an intern</strong> and working directly with the client's product manager.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="job reveal">
+            <div class="job-side">
+              <span class="job-dates">2020 – 2024</span>
+            </div>
+            <div class="job-card job-card-edu" data-spotlight>
+              <span class="edu-icon"><svg class="icon"><use href="#i-cap"/></svg></span>
+              <div>
+                <h3>B.E. in Computer Science and Engineering</h3>
+                <p class="job-org">Anna University, Panruti</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section section-tint" id="skills">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="kicker"><svg class="icon"><use href="#i-spark"/></svg> Skills</p>
+          <h2>Product thinking <span class="marker marker-sky">plus the stack to build it.</span></h2>
+        </header>
+
+        <div class="skills-grid">
+          <article class="skill-card skill-feature reveal" data-spotlight>
+            <span class="skill-icon"><svg class="icon"><use href="#i-bot"/></svg></span>
+            <h3>AI-Native Development</h3>
+            <ul class="tags tags-lg">
+              <li>Claude Code CLI</li><li>Personal Claude Code skills</li><li>Agents</li><li>Claude Design</li><li>Anthropic API</li><li>Groq</li><li>Workers AI</li>
+            </ul>
+            <div class="skill-callout">
+              <p class="mono-label">20+ skills I created in Claude Code automate</p>
+              <ul class="checklist">
+                <li><svg class="icon"><use href="#i-check"/></svg> Flutter Clean Architecture scaffolding</li>
+                <li><svg class="icon"><use href="#i-check"/></svg> API integration</li>
+                <li><svg class="icon"><use href="#i-check"/></svg> Firebase environment setup</li>
+                <li><svg class="icon"><use href="#i-check"/></svg> Test-case design</li>
+              </ul>
+            </div>
+          </article>
+          <article class="skill-card reveal" data-spotlight>
+            <span class="skill-icon skill-icon-pink"><svg class="icon"><use href="#i-bulb"/></svg></span>
+            <h3>Product</h3>
+            <ul class="tags">
+              <li>Idea validation</li><li>Competitor research</li><li>BRD &amp; PRD</li><li>UI/UX design</li><li>API contracts</li><li>Test strategy</li>
+            </ul>
+          </article>
+          <article class="skill-card reveal" data-spotlight>
+            <span class="skill-icon skill-icon-lime"><svg class="icon"><use href="#i-phone-app"/></svg></span>
+            <h3>Mobile</h3>
+            <ul class="tags">
+              <li>Flutter</li><li>Dart</li><li>BLoC</li><li>Android</li><li>iOS</li><li>Clean Architecture</li><li>Firebase</li><li>FCM push</li><li>WebSockets</li>
+            </ul>
+          </article>
+          <article class="skill-card reveal" data-spotlight>
+            <span class="skill-icon skill-icon-orange"><svg class="icon"><use href="#i-server"/></svg></span>
+            <h3>Backend &amp; Web</h3>
+            <ul class="tags">
+              <li>Python</li><li>FastAPI</li><li>PostgreSQL</li><li>SQLAlchemy</li><li>React</li><li>TypeScript</li><li>pytest</li><li>GitHub Actions</li>
+            </ul>
+          </article>
+          <article class="skill-card reveal" data-spotlight>
+            <span class="skill-icon skill-icon-sky"><svg class="icon"><use href="#i-plug"/></svg></span>
+            <h3>Integrations</h3>
+            <ul class="tags">
+              <li>WhatsApp Cloud API</li><li>Razorpay</li><li>Cashfree</li><li>PayU</li><li>LHDN MyInvois</li><li>Google Maps</li><li>Postman</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="contact-card reveal">
+          <div class="contact-copy">
+            <p class="kicker kicker-light"><svg class="icon"><use href="#i-spark"/></svg> Let's talk</p>
+            <h2>Have an idea that needs to become a working product?</h2>
+            <p>I'm looking for product engineering roles where I can own the path from research to build. The fastest way to reach me is email.</p>
+            <div class="contact-actions">
+              <a class="btn btn-lime" href="mailto:charanvpm2002@gmail.com?subject=Opportunity%20for%20Charan%20S">
+                <svg class="icon"><use href="#i-mail"/></svg> charanvpm2002@gmail.com
+              </a>
+              <button class="btn btn-ghost" type="button" data-copy="charanvpm2002@gmail.com">
+                <svg class="icon"><use href="#i-copy"/></svg> Copy email
+              </button>
+            </div>
+          </div>
+          <ul class="contact-list">
+            <li><a href="https://www.linkedin.com/in/charan-s-032935222/" target="_blank" rel="noopener"><span class="cl-icon"><svg class="icon"><use href="#i-linkedin"/></svg></span><span><small>LinkedIn</small>charan-s-032935222</span></a></li>
+            <li><a href="Charan_S_Resume.pdf" download><span class="cl-icon"><svg class="icon"><use href="#i-download"/></svg></span><span><small>Resume</small>Download PDF</span></a></li>
+            <li><span class="cl-static"><span class="cl-icon"><svg class="icon"><use href="#i-pin"/></svg></span><span><small>Based in</small>Coimbatore, India · Open to relocation &amp; remote</span></span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© <span data-year>2026</span> Charan S · AI-Native Product Engineer</p>
+      <a href="#top" class="footer-top">Back to top <svg class="icon"><use href="#i-up"/></svg></a>
+    </div>
+  </footer>
+
+  <a class="to-top" href="#top" data-to-top aria-label="Back to top"><svg class="icon"><use href="#i-up"/></svg></a>
+  <div class="toast" data-toast role="status" aria-live="polite"></div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
