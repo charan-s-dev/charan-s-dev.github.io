@@ -160,6 +160,7 @@ strong { color: var(--ink); font-weight: 700; }
 .btn-outline:hover { background: var(--blue-soft); }
 .btn-round { width: 50px; padding: 0; border-radius: 50%; font-size: 1.1rem; }
 .btn-linkedin { background: var(--blue-soft); color: var(--blue-deep); }
+.btn-github { background: var(--ink); color: #fff; }
 .btn-call { background: var(--yellow); color: var(--ink); }
 .btn-sm { min-height: 42px; padding: .55em 1.05em; font-size: .95rem; }
 .btn-yellow { background: var(--yellow); color: var(--ink); box-shadow: 0 12px 26px -12px rgba(0, 0, 0, .45); }
